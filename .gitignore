@@ -39,3 +39,6 @@ build/
 # ================================
 *.tmp
 *.swp
+
+# Daily / weekly / monthly exports
+strava-*.json
