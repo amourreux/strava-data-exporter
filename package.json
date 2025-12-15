@@ -4,10 +4,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "strava:today": "node export-today.js",
-    "strava:weekly": "node export-weekly.js",
-    "strava:monthly": "node export-monthly.js",
-    "strava:all": "npm run strava:today && npm run strava:weekly && npm run strava:monthly"
+    "strava:today": "node today.js",
+    "strava:weekly": "node weekly.js",
+    "strava:monthly": "node monthly.js",
+    "strava:all": "npm run strava:today && npm run strava:weekly && npm run strava:monthly",
+    "strava:last": "node last.js"
   },
   "keywords": [],
   "author": "",
